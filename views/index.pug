@@ -7,8 +7,8 @@ block content
   div(id="target") Clap for me
 
   script.
-    const clap_count=0;
+    var clap_count=0;
     function moreClaps(){
       clap_count=clap_count+2;
-      document.getElementById("target").InnerHTML=clap_count;
+      document.getElementById("target").innerHTML=clap_count;
     }
